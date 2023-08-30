@@ -1,11 +1,9 @@
-import { useState } from 'react'
-
+import { Cripto } from "./Components/fetch/Cripto"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      
+      <Cripto/>
     </div>
       
   )
